@@ -60,7 +60,7 @@ Home page of the admin. This type of user is able to control all club entries, a
 Home page of the club admin. This type of user is able to edit club entries for the clubs assigned.
 
 <p align="center">
- <img width="75%" class="img-fluid" src="doc/sample-image.png">
+ <img width="75%" class="img-fluid" src="doc/club-profile-page.png">
 </p>
 
 ### Browse clubs by interest area(s)
