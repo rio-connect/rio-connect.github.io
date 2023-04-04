@@ -68,5 +68,5 @@ Home page of the club admin. This type of user is able to edit club entries for 
 Page to browse clubs by interest area(s). Lists all clubs by default.
 
 <p align="center">
- <img width="75%" class="img-fluid" src="doc/sample-image.png">
+ <img width="75%" class="img-fluid" src="doc/browse-clubs-page.png">
 </p>
