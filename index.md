@@ -4,6 +4,10 @@
  <img width="100%" class="img-fluid" src="doc/sample-image.png">
 </p>
 
+## Team Contract
+
+[https://docs.google.com/document/d/1AReDgCwOPcw_MYl7dIruAtm2QclpYCjk_QXnigj9xfA/edit](https://docs.google.com/document/d/1AReDgCwOPcw_MYl7dIruAtm2QclpYCjk_QXnigj9xfA/edit)
+
 ## Goals of the Project
 
 Provide a good description of the goals of the project.
