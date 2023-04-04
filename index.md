@@ -14,7 +14,7 @@ Describe what the system should eventually provide.
 
 ## User Interface Walkthrough
 
-#### Landing page
+### Landing page
 
 Landing page that provides a brief introduction.
 
@@ -22,7 +22,7 @@ Landing page that provides a brief introduction.
  <img width="75%" class="img-fluid" src="doc/sample-image.png">
 </p>
 
-#### User home page
+### User home page
 
 Home page of the user.
 
@@ -30,7 +30,7 @@ Home page of the user.
  <img width="75%" class="img-fluid" src="doc/sample-image.png">
 </p>
 
-#### Admin home page
+### Admin home page
 
 Home page of the admin.
 
@@ -38,7 +38,7 @@ Home page of the admin.
  <img width="75%" class="img-fluid" src="doc/sample-image.png">
 </p>
 
-#### Club admin home page
+### Club admin home page
 
 Home page of the club admin.
 
@@ -46,7 +46,7 @@ Home page of the club admin.
  <img width="75%" class="img-fluid" src="doc/sample-image.png">
 </p>
 
-#### Browse clubs by interest area(s)
+### Browse clubs by interest area(s)
 
 Page to browse clubs by interest area(s).
 
