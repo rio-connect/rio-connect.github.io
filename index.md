@@ -44,7 +44,7 @@ Landing page that provides a brief introduction to RIO Connect.
 Home page of the user.
 
 <p align="center">
- <img width="75%" class="img-fluid" src="doc/sample-image.png">
+ <img width="75%" class="img-fluid" src="doc/user-home-page.png">
 </p>
 
 ### Admin home page
@@ -52,7 +52,7 @@ Home page of the user.
 Home page of the admin. This type of user is able to control all club entries, and assign edit permissions to club admins.
 
 <p align="center">
- <img width="75%" class="img-fluid" src="doc/sample-image.png">
+ <img width="75%" class="img-fluid" src="doc/user-home-page.png">
 </p>
 
 ### Club admin home page
