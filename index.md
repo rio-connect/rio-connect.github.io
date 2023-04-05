@@ -8,7 +8,10 @@ RIO Connect is an app designed to help students at the University of Hawaii at M
 
 ## Table of Contents
 
-- [Team Contract](#team-contract)
+- [Team Administration](#team-administration)
+  - [Team Members](#team-members)
+  - [Team Contract](#team-contract)
+  - [GitHub Organization](#github-organization)
 - [Goals of the Project](#goals-of-the-project)
 - [System Features](#system-features)
 - [User Interface Walkthrough](#user-interface-walkthrough)
@@ -18,14 +21,25 @@ RIO Connect is an app designed to help students at the University of Hawaii at M
   - [Club Admin Home Page](#club-admin-home-page)
   - [Browse Clubs Page](#browse-clubs-page)
 
-## Team Contract
+## Team Administration
 
-[https://docs.google.com/document/d/1AReDgCwOPcw_MYl7dIruAtm2QclpYCjk_QXnigj9xfA/edit](https://docs.google.com/document/d/1AReDgCwOPcw_MYl7dIruAtm2QclpYCjk_QXnigj9xfA/edit)
+### Team Members
+#### Alex Montoya - [montoyaoa](https://github.com/montoyaoa)
+#### Sean Sunoo - [Ssunoo2](https://github.com/Ssunoo2)
+#### Aaron Nezzer - [A-Nezzer](https://github.com/A-Nezzer)
+#### Nathan Getchel - [nathan-getchel](https://github.com/nathan-getchel)
+#### Jake Walker - [jakeswalker](https://github.com/jakeswalker)
+
+### Team Contract
+
+[Link to contract](https://docs.google.com/document/d/1AReDgCwOPcw_MYl7dIruAtm2QclpYCjk_QXnigj9xfA/edit)
 
 <div style="width: 100%;">
   <iframe src="https://docs.google.com/document/d/e/2PACX-1vRlUWyxpbTLGUoRJTj5G0IQmo7wPbHizd8CfejfiRtNBtuXRpMyoMGcgGOrKx0IQFO8AfVFNOXj35gp/pub?embedded=true" style="width: 100%; height: 500px"></iframe>
 </div>
 
+### GitHub Organization
+[Link to GitHub Organization](https://github.com/rio-connect)
 
 ## Goals of the Project
 
