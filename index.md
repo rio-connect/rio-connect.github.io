@@ -23,6 +23,7 @@ RIO Connect is an app designed to help students at the University of Hawaii at M
 - [Milestones](#milestones)
   - [Milestone 1](#milestone-1)
   - [Milestone 2](#milestone-2)
+- [Deployment](#deployment)
 
 ## Team Administration
 
@@ -114,3 +115,6 @@ Lists all clubs by default. Users can discern clubs based on name and interest a
 - To-Do Tasks:
   - Foo
   - Bar
+
+## Deployment
+[Link to deployed app](#)
