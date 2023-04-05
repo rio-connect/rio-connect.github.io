@@ -98,15 +98,17 @@ Lists all clubs by default. Users can discern clubs based on name and interest a
 </p>
 
 ## Milestones
+
 ### Milestone 1
 [M1 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/1)
 - Completed Tasks:
   - Foo
   - Bar
   - Etc
+
 ### Milestone 2
 [M2 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/1)
-- In Progess Tasks:
+- In-Progess Tasks:
   - Foo
   - Bar
 - To Do Tasks:
