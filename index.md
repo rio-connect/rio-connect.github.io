@@ -6,14 +6,25 @@
 
 RIO Connect is an app designed to help students at the University of Hawaii at Manoa find clubs and groups that they may be interested in. Registered Independent Organizations (RIOs) are student organizations that are independent of the University.
 
+## Table of Contents
+
+- [Team Contract](#team-contract)
+- [Goals of the Project](#goals-of-the-project)
+- [System Features](#system-features)
+- [User Interface Walkthrough](#user-interface-walkthrough)
+  - [Landing Page](#landing-page)
+  - [User Home Page](#user-home-page)
+  - [Admin Home Page](#admin-home-page)
+  - [Club Admin Home Page](#club-admin-home-page)
+  - [Browse Clubs Page](#browse-clubs-page)
+
 ## Team Contract
 
 [https://docs.google.com/document/d/1AReDgCwOPcw_MYl7dIruAtm2QclpYCjk_QXnigj9xfA/edit](https://docs.google.com/document/d/1AReDgCwOPcw_MYl7dIruAtm2QclpYCjk_QXnigj9xfA/edit)
 
 <div style="width: 100%;">
-  <iframe src="https://docs.google.com/document/d/e/2PACX-1vRlUWyxpbTLGUoRJTj5G0IQmo7wPbHizd8CfejfiRtNBtuXRpMyoMGcgGOrKx0IQFO8AfVFNOXj35gp/pub?embedded=true" style="width: 100%;"></iframe>
+  <iframe src="https://docs.google.com/document/d/e/2PACX-1vRlUWyxpbTLGUoRJTj5G0IQmo7wPbHizd8CfejfiRtNBtuXRpMyoMGcgGOrKx0IQFO8AfVFNOXj35gp/pub?embedded=true" style="width: 100%; height: 500px"></iframe>
 </div>
-
 
 
 ## Goals of the Project
@@ -29,7 +40,7 @@ The system provides the following features:
 
 ## User Interface Walkthrough
 
-### Landing page
+### Landing Page
 
 Landing page that provides a brief introduction to RIO Connect.
 
@@ -37,7 +48,7 @@ Landing page that provides a brief introduction to RIO Connect.
  <img width="75%" class="img-fluid" src="doc/landing-page.png">
 </p>
 
-### User home page
+### User Home Page
 
 Home page of the user.
 
@@ -45,7 +56,7 @@ Home page of the user.
  <img width="75%" class="img-fluid" src="doc/user-home-page.png">
 </p>
 
-### Admin home page
+### Admin Home Page
 
 This type of user is able to control all club entries, and assign edit permissions to club admins.
 
@@ -53,7 +64,7 @@ This type of user is able to control all club entries, and assign edit permissio
  <img width="75%" class="img-fluid" src="doc/user-home-page.png">
 </p>
 
-### Club admin home page
+### Club Admin Home Page
 
 This type of user is able to edit club entries for the clubs assigned.
 
@@ -61,9 +72,9 @@ This type of user is able to edit club entries for the clubs assigned.
  <img width="75%" class="img-fluid" src="doc/club-profile-page.png">
 </p>
 
-### Browse clubs by interest area(s)
+### Browse Clubs Page
 
-Lists all clubs by default.
+Lists all clubs by default. Users can discriminate clubs based on name and interest area.
 
 <p align="center">
  <img width="75%" class="img-fluid" src="doc/browse-clubs-page.png">
