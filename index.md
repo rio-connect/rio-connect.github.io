@@ -111,6 +111,6 @@ Lists all clubs by default. Users can discern clubs based on name and interest a
 - In-Progess Tasks:
   - Foo
   - Bar
-- To Do Tasks:
+- To-Do Tasks:
   - Foo
   - Bar
