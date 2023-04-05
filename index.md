@@ -20,6 +20,9 @@ RIO Connect is an app designed to help students at the University of Hawaii at M
   - [Admin Home Page](#admin-home-page)
   - [Club Admin Home Page](#club-admin-home-page)
   - [Browse Clubs Page](#browse-clubs-page)
+- [Milestones](#milestones)
+  - [Milestone 1](#milestone-1)
+  - [Milestone 2](#milestone-2)
 
 ## Team Administration
 
@@ -93,3 +96,19 @@ Lists all clubs by default. Users can discriminate clubs based on name and inter
 <p align="center">
  <img width="75%" class="img-fluid" src="doc/browse-clubs-page.png">
 </p>
+
+## Milestones
+### Milestone 1
+[M1 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/1)
+- Completed Tasks:
+  - Foo
+  - Bar
+  - Etc
+### Milestone 2
+[M2 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/1)
+- In Progess Tasks:
+  - Foo
+  - Bar
+- To Do Tasks:
+  - Foo
+  - Bar
