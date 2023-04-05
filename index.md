@@ -27,10 +27,10 @@ RIO Connect is an app designed to help students at the University of Hawaii at M
 ## Team Administration
 
 ### Team Members
-#### Alex Montoya - [montoyaoa](https://github.com/montoyaoa)
-#### Sean Sunoo - [Ssunoo2](https://github.com/Ssunoo2)
-#### Aaron Nezzer - [A-Nezzer](https://github.com/A-Nezzer)
 #### Nathan Getchel - [nathan-getchel](https://github.com/nathan-getchel)
+#### Alex Montoya - [montoyaoa](https://github.com/montoyaoa)
+#### Aaron Nezzer - [A-Nezzer](https://github.com/A-Nezzer)
+#### Sean Sunoo - [Ssunoo2](https://github.com/Ssunoo2)
 #### Jake Walker - [jakeswalker](https://github.com/jakeswalker)
 
 ### Team Contract
@@ -59,7 +59,7 @@ The system provides the following features:
 
 ### Landing Page
 
-Landing page that provides a brief introduction to RIO Connect.
+Landing page that provides a brief introduction to RIO Connect. Users can log in, sign up, or browse clubs.
 
 <p align="center">
  <img width="75%" class="img-fluid" src="doc/landing-page.png">
@@ -67,7 +67,7 @@ Landing page that provides a brief introduction to RIO Connect.
 
 ### User Home Page
 
-Home page of the user.
+Home page of a regular user. This page shows the user's contact information, as well as any clubs and interest areas they have saved.
 
 <p align="center">
  <img width="75%" class="img-fluid" src="doc/user-home-page.png">
@@ -91,7 +91,7 @@ This type of user is able to edit club entries for the clubs assigned.
 
 ### Browse Clubs Page
 
-Lists all clubs by default. Users can discriminate clubs based on name and interest area.
+Lists all clubs by default. Users can discern clubs based on name and interest area.
 
 <p align="center">
  <img width="75%" class="img-fluid" src="doc/browse-clubs-page.png">
