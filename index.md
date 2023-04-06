@@ -103,9 +103,7 @@ Lists all clubs by default. Users can discern clubs based on name and interest a
 ### Milestone 1
 [M1 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/1)
 - Completed Tasks:
-  - Foo
-  - Bar
-  - Etc
+  - Create a logo for RIO Connect.
 
 ### Milestone 2
 [M2 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/1)
