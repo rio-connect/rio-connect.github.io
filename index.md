@@ -98,6 +98,22 @@ Lists all clubs by default. Users can discern clubs based on name and interest a
  <img width="75%" class="img-fluid" src="doc/browse-clubs-page.png">
 </p>
 
+### Login Page
+
+Allows login and with a signin option, to access personal or club account.
+
+<p align="center">
+ <img width="75%" class="img-fluid" src="doc/login-page.png">
+</p>
+
+### Signup Page
+
+Allows new users to create an account with the site, to allow a customized club-viewing experience.
+
+<p align="center">
+ <img width="75%" class="img-fluid" src="doc/signup-page.png">
+</p>
+
 ## Milestones
 
 ### Milestone 1
