@@ -133,4 +133,4 @@ Allows new users to create an account with the site, to allow a customized club-
   - Bar
 
 ## Deployment
-[Link to deployed app](#)
+[Link to deployed app](http://157.245.253.32/)
