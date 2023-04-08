@@ -71,7 +71,7 @@ Landing page that provides a brief introduction to RIO Connect. Users can log in
 Home page of a regular user. This page shows the user's contact information, as well as any clubs and interest areas they have saved.
 
 <p align="center">
- <img width="75%" class="img-fluid" src="doc/user-homepage.png">
+ <img width="75%" class="img-fluid" src="doc/user-home-page.png">
 </p>
 
 ### Admin Home Page
