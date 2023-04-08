@@ -71,7 +71,7 @@ Landing page that provides a brief introduction to RIO Connect. Users can log in
 Home page of a regular user. This page shows the user's contact information, as well as any clubs and interest areas they have saved.
 
 <p align="center">
- <img width="75%" class="img-fluid" src="doc/user-home-page.png">
+ <img width="75%" class="img-fluid" src="doc/user-homepage.png">
 </p>
 
 ### Admin Home Page
@@ -79,7 +79,7 @@ Home page of a regular user. This page shows the user's contact information, as 
 This type of user is able to control all club entries, and assign edit permissions to club admins.
 
 <p align="center">
- <img width="75%" class="img-fluid" src="doc/user-home-page.png">
+ <img width="75%" class="img-fluid" src="doc/admin-homepage.png">
 </p>
 
 ### Club Admin Home Page
