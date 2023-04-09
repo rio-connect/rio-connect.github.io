@@ -76,7 +76,7 @@ Home page of a regular user. This page shows the user's contact information, as 
 
 ### Admin Home Page
 
-This type of user is able to control all club entries, and assign edit permissions to club admins.
+Home page of a site admin. This page shows the admin's contact information, as well as any clubs and interest areas they have saved. The admin can also select any club and go to its edit page.
 
 <p align="center">
  <img width="75%" class="img-fluid" src="doc/admin-homepage.png">
