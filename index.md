@@ -98,6 +98,14 @@ Allows a user to create a club. Current user automatically becomes an admin
  <img width="75%" class="img-fluid" src="doc/Create-a-club.png">
 </p>
 
+### Edit Club Page
+
+Allows site admin and club owners to edit club information as well as assign user as a club member or club owner.
+
+<p align="center">
+ <img width="75%" class="img-fluid" src="doc/edit-club-page.png">
+</p>
+
 ### Login Page
 
 Allows login and with a signin option, to access personal or club account.
