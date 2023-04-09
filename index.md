@@ -82,14 +82,6 @@ This type of user is able to control all club entries, and assign edit permissio
  <img width="75%" class="img-fluid" src="doc/admin-homepage.png">
 </p>
 
-### Club Admin Home Page
-
-This type of user is able to edit club entries for the clubs assigned.
-
-<p align="center">
- <img width="75%" class="img-fluid" src="doc/club-profile-page.png">
-</p>
-
 ### Browse Clubs Page
 
 Lists all clubs by default. Users can discern clubs based on name and interest area.
