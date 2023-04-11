@@ -95,7 +95,7 @@ Lists all clubs by default. Users can discern clubs based on name and interest a
 Allows a user to create a club. Current user automatically becomes an admin
 
 <p align="center">
- <img width="75%" class="img-fluid" src="doc/Create-a-club.png">
+ <img width="75%" class="img-fluid" src="doc/add-club-page.png">
 </p>
 
 ### Edit Club Page
