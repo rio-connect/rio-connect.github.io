@@ -138,4 +138,4 @@ Allows new users to create an account with the site, to allow a customized club-
 [M2 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/2)
 
 ## Deployment
-[Link to deployed app](http://157.245.253.32/)
+[Link to deployed app](http://www.rio-connect.com/)
