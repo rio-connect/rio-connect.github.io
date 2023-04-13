@@ -133,19 +133,9 @@ Allows new users to create an account with the site, to allow a customized club-
 
 ### Milestone 1
 [M1 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/1)
-- Completed Tasks:
-  - Create a logo for RIO Connect (Jake)
-  - Create visual mockup of Club Admin Page (Jake)
-  - Create visual mockup of Browse Clubs Page (Jake)
 
 ### Milestone 2
-[M2 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/1)
-- In-Progess Tasks:
-  - Foo
-  - Bar
-- To-Do Tasks:
-  - Foo
-  - Bar
+[M2 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/2)
 
 ## Deployment
 [Link to deployed app](http://157.245.253.32/)
