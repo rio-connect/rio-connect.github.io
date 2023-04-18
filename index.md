@@ -129,6 +129,12 @@ Allows new users to create an account with the site, to allow a customized club-
  <img width="75%" class="img-fluid" src="doc/signup-page.png">
 </p>
 
+## Continuous Integration
+
+[![ci-rio-connect](https://github.com/rio-connect/rio-connect/actions/workflows/ci.yml/badge.svg)](https://github.com/rio-connect/rio-connect/actions/workflows/ci.yml)
+
+RIO Connect uses GitHub Actions to automatically run ESLint and TestCafe each time a commit is made to the default branch. You can see the results of all recent “workflows” at [https://github.com/rio-connect/rio-connect/actions](https://github.com/rio-connect/rio-connect/actions).
+
 ## Milestones
 
 ### Milestone 1
