@@ -27,6 +27,7 @@ RIO Connect is an app designed to help students at the University of Hawaii at M
 - [Milestones](#milestones)
   - [Milestone 1](#milestone-1)
   - [Milestone 2](#milestone-2)
+  - [Milestone 3](#milestone-3)
 - [Deployment](#deployment)
 
 ## Team Administration
@@ -143,6 +144,9 @@ RIO Connect uses GitHub Actions to automatically run ESLint and TestCafe each ti
 
 ### Milestone 2
 [M2 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/2)
+
+### Milestone 3
+[M3 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/3)
 
 ## Deployment
 [Link to deployed app](http://www.rio-connect.com/)
