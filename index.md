@@ -190,8 +190,8 @@ Here is sample output indicating that no ESLint errors were detected:
 ```
 $ meteor npm run lint
 
-> bowfolios@ lint /Users/philipjohnson/github/bowfolios/bowfolios/app
-> eslint --quiet --ext .jsx --ext .js ./imports ./tests
+> meteor-application-template-react@ lint /Users/sean/Documents/GitHub/rio-connect/app
+> eslint --quiet --ext .jsx --ext .js ./imports && eslint --quiet --ext .js ./tests
 
 $
 ```
@@ -204,7 +204,7 @@ It's significantly easier to do development with ESLint integrated directly into
 
 Rio connect uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
 
-The rio connect end-to-end test code employs the page object model design pattern.  In the [bowfolios tests/ directory](https://github.com/rio-connect/rio-connect/tree/master/app/tests), the file [tests.testcafe.js](https://github.com/rio-connect/rio-connect/blob/master/app/tests/tests.testcafe.js) contains the TestCafe test definitions. The remaining files in the directory contain "page object models" for the various pages in the system (i.e. Home, Landing, Browse Clubs, etc.) as well as one component (navbar). This organization makes the test code shorter, easier to understand, and easier to debug.
+The rio connect end-to-end test code employs the page object model design pattern.  In the [rio-connect tests/ directory](https://github.com/rio-connect/rio-connect/tree/master/app/tests), the file [tests.testcafe.js](https://github.com/rio-connect/rio-connect/blob/master/app/tests/tests.testcafe.js) contains the TestCafe test definitions. The remaining files in the directory contain "page object models" for the various pages in the system (i.e. Home, Landing, Browse Clubs, etc.) as well as one component (navbar). This organization makes the test code shorter, easier to understand, and easier to debug.
 
 To run the end-to-end tests in development mode, you must first start up a rio connect instance by invoking `meteor npm run start` in one console window.
 
