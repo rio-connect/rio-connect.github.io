@@ -168,7 +168,9 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 Rio Connect is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Rio Connect.
 
-## Data model
+### Data model
+
+The rio connect data model consists of two "primary" collections: Profiles and Clubs. Profiles contain user information such as email (userID), name and phone number. Clubs contain descriptor types such as a club description in which meeting times can be advertised, owner name and owner email, club type (for search filtering), default image and an array of members.
 
 ## Initialization
 
@@ -176,9 +178,8 @@ The [config](https://github.com/rio-connect/rio-connect/tree/master/config) dire
 
 This file contains default definitions for Profiles and Clubs.
 
-The settings.development.json file contains a field called "loadAssetsFile". It is set to false, but if you change it to true, then the data in the file app/private/data.json will also be loaded.  The code to do this illustrates how to initialize a system when the initial data exceeds the size limitations for the settings file.
-
-## ES lint
+### Quality Assurance
+#### ES lint
 
 Rio connect includes a [.eslintrc](https://github.com/rio-connect/rio-connect/blob/master/app/.eslintrc.js) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
@@ -217,7 +218,12 @@ meteor npm run testcafe
 
 You will see browser windows appear and disappear as the tests run.  If the tests finish successfully, you should see the following in your second console window:
 
+
+
 /* TEST CODE OUTPUT HERE */
+
+
+
 
 You can also run the testcafe tests in "continuous integration mode".  This mode is appropriate when you want to run the tests using a continuous integration service like Jenkins, Semaphore, CircleCI, etc.  In this case, it is problematic to already have the server running in a separate console, and you cannot have the browser window appear and disappear.
 
@@ -225,7 +231,13 @@ To run the testcafe tests in continuous integration mode, first ensure that rio 
 
 Then, invoke `meteor npm run testcafe-ci`.  You will not see any windows appear.  When the tests finish, the console should look like this:
 
+
+
+
 /* TEST CODE OUTPUT HERE */
+
+
+
 
 All the tests pass, but the first test is marked as "unstable". At the time of writing, TestCafe fails the first time it tries to run a test in this mode, but subsequent attempts run normally. To prevent the test run from failing due to this problem with TestCafe, we enable [testcafe quarantine mode](https://devexpress.github.io/testcafe/documentation/guides/basic-guides/run-tests.html#quarantine-mode).
 
@@ -234,12 +246,15 @@ The only impact of quarantine mode should be that the first test is marked as "u
 ## Milestones
 
 ### Milestone 1
+The Goal of Milestone 1 was to create mockup pages and a few skeletal react pages to build upon in the future.
 [M1 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/1)
 
 ### Milestone 2
+The Goal of Milestone 2 was to implement functioning pages that interact with the data models set in place.
 [M2 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/2)
 
 ### Milestone 3
+The Goal of Milestone 3 is to add increased functionality and complexity to the existing app to produce a polished final project.
 [M3 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/3)
 
 ## Deployment
