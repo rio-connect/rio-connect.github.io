@@ -142,7 +142,7 @@ RIO Connect uses GitHub Actions to automatically run ESLint and TestCafe each ti
 
 ## Developer Guide
 
-This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
+This section provides information of interest to Meteor developers wishing to use rio connect in their own development.
 
 ## Installation
 
