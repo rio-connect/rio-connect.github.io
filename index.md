@@ -220,7 +220,26 @@ You will see browser windows appear and disappear as the tests run.  If the test
 
 
 
-/* TEST CODE OUTPUT HERE */
+[sean@Laptop-von-Sean app % meteor npm run testcafe
+
+> meteor-application-template-react@ testcafe /Users/sean/Documents/GitHub/rio-connect/app
+> testcafe chrome tests/*.testcafe.js
+
+ Running tests in:
+ - Chrome 112.0.0.0 / Ventura 13
+
+ rio-connect localhost test with default db
+ ✓ Test that landing page shows up
+ ✓ Test that signin and signout work
+ ✓ Test that signin and signout work
+ ✓ Test that signin and signout work
+10
+ ✓ Test the Browse Clubs page
+ ✓ Test that add and edit clubs work
+
+
+ 6 passed (2m 01s)
+
 
 
 
