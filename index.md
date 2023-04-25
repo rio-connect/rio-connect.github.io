@@ -178,7 +178,7 @@ This file contains default definitions for Profiles and Clubs.
 
 The settings.development.json file contains a field called "loadAssetsFile". It is set to false, but if you change it to true, then the data in the file app/private/data.json will also be loaded.  The code to do this illustrates how to initialize a system when the initial data exceeds the size limitations for the settings file.
 
-## es lint
+## ES lint
 
 Rio connect includes a [.eslintrc](https://github.com/rio-connect/rio-connect/blob/master/app/.eslintrc.js) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
