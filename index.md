@@ -1,10 +1,12 @@
 # RIO Connect
 
+## Overview
+
 <p align="center">
  <img width="100%" class="img-fluid" src="doc/landing-page.png">
 </p>
 
-RIO Connect is an app designed to help students at the University of Hawaii at Manoa find clubs and groups that they may be interested in. Registered Independent Organizations (RIOs) are student organizations that are independent of the University.
+RIO Connect is an app designed to help students at the University of Hawaii at Manoa find clubs and groups that they may be interested in. Registered Independent Organizations (RIOs) are student organizations that are independent of the University. The University of Hawaii at Manoa has many Registered Independent Organizations or clubs that many students do not know about but may be interested in joining. The purpose of RIO Connect is to enhance the UH Manoa student community by facilitating club discovery and access. Students can create profiles, join and create clubs and browse the currently existing clubs by  club type. 
 
 ## Table of Contents
 
