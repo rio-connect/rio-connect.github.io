@@ -26,6 +26,7 @@ RIO Connect is an app designed to help students at the University of Hawaii at M
   - [Login Page](#login-page)
   - [Signup Page](#signup-page)
 - [Continuous Integration](#continuous-integration)
+- [Developer Guide](#developer-guide)
 - [Milestones](#milestones)
   - [Milestone 1](#milestone-1)
   - [Milestone 2](#milestone-2)
