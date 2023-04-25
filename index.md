@@ -243,4 +243,5 @@ The only impact of quarantine mode should be that the first test is marked as "u
 [M3 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/3)
 
 ## Deployment
-[Link to deployed app](https://www.rio-connect.com/)
+[Link to deployed app](https://rio-connect.com/)
+
