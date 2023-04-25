@@ -252,9 +252,27 @@ Then, invoke `meteor npm run testcafe-ci`.  You will not see any windows appear.
 
 
 
+```
+sean@Laptop-von-Sean app % meteor npm run testcafe-ci
 
-/* TEST CODE OUTPUT HERE */
+> meteor-application-template-react@ testcafe-ci /Users/sean/Documents/GitHub/rio-connect/app
+> testcafe chrome:headless tests/*.testcafe.js -q --app "meteor npm run start"
 
+ Running tests in:
+ - Chrome 112.0.5615.137 / Ventura 13
+
+ rio-connect localhost test with default db
+ ✓ Test that landing page shows up (unstable)
+ ✓ Test that signin and signout work
+ ✓ Test that signin and signout work
+ ✓ Test that signin and signout work
+10
+ ✓ Test the Browse Clubs page
+ ✓ Test that add and edit clubs work
+
+
+ 6 passed (6m 34s)
+```
 
 
 
