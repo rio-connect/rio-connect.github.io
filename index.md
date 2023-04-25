@@ -103,10 +103,10 @@ Lists all clubs by default. Users can discern clubs based on name and interest a
 
 ### Create a Club Page
 
-Allows a user to create a club. Current user automatically becomes an admin.
+Allows a user to create a club. Current user automatically becomes owner.
 
 <p align="center">
- <img width="75%" class="img-fluid" src="doc/add-club-page.png">
+ <img width="75%" class="img-fluid" src="doc/add-club-page2.png">
 </p>
 
 ### Edit Club Page
