@@ -132,7 +132,7 @@ Allows login and with a signin option, to access personal or club account.
 Allows new users to create an account with the site, to allow a customized club-viewing experience.
 
 <p align="center">
- <img width="75%" class="img-fluid" src="doc/signup-page.png">
+ <img width="75%" class="img-fluid" src="doc/rio-connect-signup.png">
 </p>
 
 ## Continuous Integration
