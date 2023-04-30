@@ -26,6 +26,7 @@ RIO Connect is an app designed to help students at the University of Hawaii at M
   - [Login Page](#login-page)
   - [Signup Page](#signup-page)
 - [Continuous Integration](#continuous-integration)
+- [Community Feedback](#community-feedback)
 - [Developer Guide](#developer-guide)
 - [Milestones](#milestones)
   - [Milestone 1](#milestone-1)
@@ -139,6 +140,10 @@ Allows new users to create an account with the site, to allow a customized club-
 [![ci-rio-connect](https://github.com/rio-connect/rio-connect/actions/workflows/ci.yml/badge.svg)](https://github.com/rio-connect/rio-connect/actions/workflows/ci.yml)
 
 RIO Connect uses GitHub Actions to automatically run ESLint and TestCafe each time a commit is made to the default branch. You can see the results of all recent “workflows” at [https://github.com/rio-connect/rio-connect/actions](https://github.com/rio-connect/rio-connect/actions).
+
+## Community Feedback
+
+We are interested in your experience using Rio Connect! If you would like, please take a couple of minutes to fill out the [Rio Connect Feedback Form](https://docs.google.com/forms/d/1X0cSERm66ZapfSLwUToNWUevdz_jKCKSPyyuHL5Cp2A/edit). It contains only five short questions and will help us understand how to improve the system.
 
 ## Developer Guide
 
