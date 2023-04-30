@@ -84,7 +84,7 @@ Landing page that provides a brief introduction to RIO Connect. Users can log in
 Home page of a regular user. This page shows the user's contact information, as well as any clubs and interest areas they have saved.
 
 <p align="center">
- <img width="75%" class="img-fluid" src="doc/user-home-page.png">
+ <img width="75%" class="img-fluid" src="doc/rio-connect-user-page.png">
 </p>
 
 ### Admin Home Page
@@ -92,7 +92,7 @@ Home page of a regular user. This page shows the user's contact information, as 
 Home page of a site admin. This page shows the admin's contact information, as well as any clubs and interest areas they have saved. The admin can also select any club and go to its edit page.
 
 <p align="center">
- <img width="75%" class="img-fluid" src="doc/admin-homepage.png">
+ <img width="75%" class="img-fluid" src="doc/rio-connect-admin-user-page.png">
 </p>
 
 ### Browse Clubs Page
@@ -108,7 +108,7 @@ Lists all clubs by default. Users can discern clubs based on name and interest a
 Allows a user to create a club. Current user automatically becomes owner.
 
 <p align="center">
- <img width="75%" class="img-fluid" src="doc/add-club-page2.png">
+ <img width="75%" class="img-fluid" src="doc/rio-connect-add-club-page.png">
 </p>
 
 ### Edit Club Page
