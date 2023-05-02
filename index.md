@@ -189,6 +189,8 @@ Rio Connect is based upon [meteor-application-template-react](https://ics-softwa
 
 The rio connect data model consists of two "primary" collections: Profiles and Clubs. Profiles contain user information such as email (userID), name and phone number. Clubs contain descriptor types such as a club description in which meeting times can be advertised, owner name and owner email, club type (for search filtering), default image and an array of members.
 
+Additional Join collections are present in the code, but have not currently been implemented. These include ClubInterests, Interests, ProfileInterests, and ProfileClubs. The idea is that each entry indicates that there is a relationship between those two entities. Now, to find all the Clubs associated with a Profile, just search this collection for all the documents that match the Profile, then extract the Club field. Going the other way is just as easy: to find all the Profiles associated with a Club, just search the collection for all documents matching the Club, then extract the Profile field. The Interests collection was originally intended to match a user's interests with a a club type.
+
 ## Initialization
 
 The [config](https://github.com/rio-connect/rio-connect/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/rio-connect/rio-connect/tree/master/config/settings.development.json).
