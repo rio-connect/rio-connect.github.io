@@ -65,7 +65,7 @@ The system provides the following features:
 * Tagging clubs with interest categories (athletic, academic, social, etc.)
 * Filter clubs by desired interest category
 
-## User Guide
+## User Interface Walkthrough
 
 ### Landing Page
 
