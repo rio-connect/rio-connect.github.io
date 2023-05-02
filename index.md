@@ -224,10 +224,9 @@ meteor npm run testcafe
 You will see browser windows appear and disappear as the tests run.  If the tests finish successfully, you should see the following in your second console window:
 
 
-```
-[sean@Laptop-von-Sean app % meteor npm run testcafe
+user@Laptop-von-Sean app % meteor npm run testcafe
 
-> meteor-application-template-react@ testcafe /Users/sean/Documents/GitHub/rio-connect/app
+> meteor-application-template-react@ testcafe /Users/user/Documents/GitHub/rio-connect/app
 > testcafe chrome tests/*.testcafe.js
 
  Running tests in:
@@ -235,15 +234,18 @@ You will see browser windows appear and disappear as the tests run.  If the test
 
  rio-connect localhost test with default db
  ✓ Test that landing page shows up
- ✓ Test that signin and signout work
- ✓ Test that signin and signout work
- ✓ Test that signin and signout work
-10
- ✓ Test the Browse Clubs page
+ ✓ Test that signin and signout work for Emma Lee
+ ✓ Test that signin and signout work for John Smith
+ ✓ Test that signin and signout work for Admin
+ ✓ Test that BrowseClubsPage works for users
  ✓ Test that add and edit clubs work
+ ✓ Test that the UserPage displays correct information for emma@foo.com
+ ✓ Test that the UserPage displays correct information for john@foo.com
+ ✓ Test that the UserPage displays correct information for admin@foo.com
 
 
- 6 passed (2m 01s)
+ 9 passed (3m 38s)
+
 ```
 
 
