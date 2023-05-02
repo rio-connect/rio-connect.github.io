@@ -165,15 +165,15 @@ This section provides information of interest to Meteor developers wishing to us
 
 First, [install Meteor](https://www.meteor.com/install).
 
+Second, visit the Rio Connect application github page and download the sources as a zip file or make a fork of the repo either . However you do it, download a copy of the repo to your local computer.
 
-
-Second, cd into the rio-connect/app directory and install libraries with:
+Third, cd into the rio-connect/app directory and install libraries with:
 
 ```
 $ meteor npm install
 ```
 
-Third, run the system with:
+Fourth, run the system with:
 
 ```
 $ meteor npm run start
