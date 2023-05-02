@@ -197,6 +197,8 @@ The [config](https://github.com/rio-connect/rio-connect/tree/master/config) dire
 
 This file contains default definitions for Profiles and Clubs.
 
+The settings.development.json file contains a field called “loadDefaultClubs”. It is set to true and loads the data in the file app/private/defaultClubs.json as settings.development.json has a character limit. The defaultClubs file contains the club information for the current 191 registered independent organizations at UH Manoa at the time of publishing this app. The field can be set to false to omit loading the extra data. The code to do this illustrates how to initialize a system when the initial data exceeds the size limitations for the settings file.
+
 ### Quality Assurance
 #### ES lint
 
