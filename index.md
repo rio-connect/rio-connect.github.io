@@ -1,22 +1,15 @@
 # RIO Connect
 
-## Overview
-
-<p align="center">
- <img width="100%" class="img-fluid" src="doc/landing-page.png">
-</p>
-
-RIO Connect is an app designed to help students at the University of Hawaii at Manoa find clubs and groups that they may be interested in. Registered Independent Organizations (RIOs) are student organizations that are independent of the University. The University of Hawaii at Manoa has many Registered Independent Organizations or clubs that many students do not know about but may be interested in joining. The purpose of RIO Connect is to enhance the UH Manoa student community by facilitating club discovery and access. Students can create profiles, join and create clubs and browse the currently existing clubs by  club type. 
-
 ## Table of Contents
 
+- [Overview](#overview)
+  - [Goals of the Project](#goals-of-the-project)
+  - [System Features](#system-features)
 - [Team Administration](#team-administration)
   - [Team Members](#team-members)
   - [Team Contract](#team-contract)
-  - [GitHub Organization](#github-organization)
-- [Goals of the Project](#goals-of-the-project)
-- [System Features](#system-features)
-- [User Interface Walkthrough](#user-interface-walkthrough)
+- [Deployment](#deployment)
+- [User Guide](#user-guide)
   - [Landing Page](#landing-page)
   - [User Home Page](#user-home-page)
   - [Admin Home Page](#admin-home-page)
@@ -25,14 +18,38 @@ RIO Connect is an app designed to help students at the University of Hawaii at M
   - [Edit Club Page](#edit-club-page)
   - [Login Page](#login-page)
   - [Signup Page](#signup-page)
-- [Continuous Integration](#continuous-integration)
 - [Community Feedback](#community-feedback)
+- [GitHub Organization](#github-organization)
+- [Continuous Integration](#continuous-integration)
 - [Developer Guide](#developer-guide)
-- [Milestones](#milestones)
+  - [Installation](#installation)
+  - [Application Design](#application-design)
+  - [Data Model](#data-model)
+  - [Initialization](#initialization)
+  - [Quality Assurance](#quality-assurance)
+- [Development History](#development-history)
   - [Milestone 1](#milestone-1)
   - [Milestone 2](#milestone-2)
   - [Milestone 3](#milestone-3)
-- [Deployment](#deployment)
+
+## Overview
+
+<p align="center">
+ <img width="100%" class="img-fluid" src="doc/landing-page.png">
+</p>
+
+RIO Connect is an app designed to help students at the University of Hawaii at Manoa find clubs and groups that they may be interested in. Registered Independent Organizations (RIOs) are student organizations that are independent of the University. The University of Hawaii at Manoa has many Registered Independent Organizations or clubs that many students do not know about but may be interested in joining. The purpose of RIO Connect is to enhance the UH Manoa student community by facilitating club discovery and access. Students can create profiles, join and create clubs and browse the currently existing clubs by  club type. 
+
+### Goals of the Project
+
+The goal of this project is to provide a centralized directory for UH Manoa student clubs. This directory will list all RIOs, and provide descriptions and contact information for each one. The project will also allow for editing and removing club listings by authorized administrators.
+
+### System Features
+
+The system provides the following features:
+* Storing, editing, and removing club information.
+* Tagging clubs with interest categories (athletic, academic, social, etc.)
+* Filter clubs by desired interest category
 
 ## Team Administration
 
@@ -51,21 +68,10 @@ RIO Connect is an app designed to help students at the University of Hawaii at M
   <iframe src="https://docs.google.com/document/d/e/2PACX-1vRlUWyxpbTLGUoRJTj5G0IQmo7wPbHizd8CfejfiRtNBtuXRpMyoMGcgGOrKx0IQFO8AfVFNOXj35gp/pub?embedded=true" style="width: 100%; height: 500px"></iframe>
 </div>
 
-### GitHub Organization
-[Link to GitHub Organization](https://github.com/rio-connect)
+## Deployment
+[Link to deployed app](https://rio-connect.com/)
 
-## Goals of the Project
-
-The goal of this project is to provide a centralized directory for UH Manoa student clubs. This directory will list all RIOs, and provide descriptions and contact information for each one. The project will also allow for editing and removing club listings by authorized administrators.
-
-## System Features
-
-The system provides the following features:
-* Storing, editing, and removing club information.
-* Tagging clubs with interest categories (athletic, academic, social, etc.)
-* Filter clubs by desired interest category
-
-## User Interface Walkthrough
+## User Guide
 
 ### Landing Page
 
@@ -131,37 +137,40 @@ Allows new users to create an account with the site, to allow a customized club-
  <img width="75%" class="img-fluid" src="doc/signup.png">
 </p>
 
-## Continuous Integration
-
-[![ci-rio-connect](https://github.com/rio-connect/rio-connect/actions/workflows/ci.yml/badge.svg)](https://github.com/rio-connect/rio-connect/actions/workflows/ci.yml)
-
-RIO Connect uses GitHub Actions to automatically run ESLint and TestCafe each time a commit is made to the default branch. You can see the results of all recent “workflows” at [https://github.com/rio-connect/rio-connect/actions](https://github.com/rio-connect/rio-connect/actions).
-
 ## Community Feedback
 
 We are interested in your experience using Rio Connect! If you would like, please take a couple of minutes to fill out the [Rio Connect Feedback Form](https://docs.google.com/forms/d/1X0cSERm66ZapfSLwUToNWUevdz_jKCKSPyyuHL5Cp2A/edit). It contains only five short questions and will help us understand how to improve the system.
 
 The following are some of the feedback we recieved from other UH students:
 
-Andee: When in my profile it shows that I am in clubs that I did not select, so getting it to show only the clubs that I had joined. The add club feature could be improved for easier user access.
+<strong>Andee</strong>: When in my profile it shows that I am in clubs that I did not select, so getting it to show only the clubs that I had joined. The add club feature could be improved for easier user access.
 
-Eliya: Overall, I love the visual appearance of the website. I think that it has an easy-to-follow user navigation system as well. However, I would make sure to fix the "Add club" mechanism, as well as the mechanism to edit the clubs you are a part of, as it doesn't seem to be fully working. I think this is a really well made website, though, and could prove useful for any student wanting to join a new club.
+<strong>Eliya</strong>: Overall, I love the visual appearance of the website. I think that it has an easy-to-follow user navigation system as well. However, I would make sure to fix the "Add club" mechanism, as well as the mechanism to edit the clubs you are a part of, as it doesn't seem to be fully working. I think this is a really well made website, though, and could prove useful for any student wanting to join a new club.
 
-Mercy: Everything looks and works well, a couple ideas of things that could be added is a when2meet or something similar to show meeting times, a separate section where owners can look at their clubs separate from clubs that they've joined as a member, and then somewhere on the website with contact info for admin or incase of error.
+<strong>Mercy</strong>: Everything looks and works well, a couple ideas of things that could be added is a when2meet or something similar to show meeting times, a separate section where owners can look at their clubs separate from clubs that they've joined as a member, and then somewhere on the website with contact info for admin or incase of error.
 
-Alex: Images take a while to load (not cause of my internet or computer), Dark theme
+<strong>Alex</strong>: Images take a while to load (not cause of my internet or computer), Dark theme
 
-Sarah Haanen (Hui Ala Pono Club President): Nothing, it is intuitive and looks great on mobile.
+<strong>Sarah Haanen (Hui Ala Pono Club President)</strong>: Nothing, it is intuitive and looks great on mobile.
 
-Timothy : The website seems to be efficiently designed for finding clubs. Perhaps maybe a way to search for other users and add them as a friend to see what clubs they're in to give it a social aspect?
+<strong>Timothy</strong>: The website seems to be efficiently designed for finding clubs. Perhaps maybe a way to search for other users and add them as a friend to see what clubs they're in to give it a social aspect?
 
-Hannah: I think the website looks AMAZING! I truly didn't know we had that many clubs! My one minor suggestion is adding an option where it immediately allows users to go from the letter "A" category to the letter "M" category without having to scroll all the way down; like an "A / B / C / D..." type of interface to make it even easier and quicker to navigate. Overall though, I think the website is efficient and effective- good job! :)
+<strong>Hannah</strong>: I think the website looks AMAZING! I truly didn't know we had that many clubs! My one minor suggestion is adding an option where it immediately allows users to go from the letter "A" category to the letter "M" category without having to scroll all the way down; like an "A / B / C / D..." type of interface to make it even easier and quicker to navigate. Overall though, I think the website is efficient and effective- good job! :)
+
+## GitHub Organization
+[Link to GitHub Organization](https://github.com/rio-connect)
+
+## Continuous Integration
+
+[![ci-rio-connect](https://github.com/rio-connect/rio-connect/actions/workflows/ci.yml/badge.svg)](https://github.com/rio-connect/rio-connect/actions/workflows/ci.yml)
+
+RIO Connect uses GitHub Actions to automatically run ESLint and TestCafe each time a commit is made to the default branch. You can see the results of all recent “workflows” at [https://github.com/rio-connect/rio-connect/actions](https://github.com/rio-connect/rio-connect/actions).
 
 ## Developer Guide
 
 This section provides information of interest to Meteor developers wishing to use rio connect in their own development.
 
-## Installation
+### Installation
 
 First, [install Meteor](https://www.meteor.com/install).
 
@@ -185,13 +194,13 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 Rio Connect is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Rio Connect.
 
-### Data model
+### Data Model
 
 The rio connect data model consists of two "primary" collections: Profiles and Clubs. Profiles contain user information such as email (userID), name and phone number. Clubs contain descriptor types such as a club description in which meeting times can be advertised, owner name and owner email, club type (for search filtering), default image and an array of members.
 
 Additional Join collections are present in the code, but have not currently been implemented. These include ClubInterests, Interests, ProfileInterests, and ProfileClubs. The idea is that each entry indicates that there is a relationship between those two entities. Now, to find all the Clubs associated with a Profile, just search this collection for all the documents that match the Profile, then extract the Club field. Going the other way is just as easy: to find all the Profiles associated with a Club, just search the collection for all documents matching the Club, then extract the Profile field. The Interests collection was originally intended to match a user's interests with a club type.
 
-## Initialization
+### Initialization
 
 The [config](https://github.com/rio-connect/rio-connect/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/rio-connect/rio-connect/tree/master/config/settings.development.json).
 
@@ -200,7 +209,7 @@ This file contains default definitions for Profiles and Clubs.
 The settings.development.json file contains a field called “loadDefaultClubs”. It is set to true and loads the data in the file app/private/defaultClubs.json as settings.development.json has a character limit. The defaultClubs file contains the club information for the current 191 registered independent organizations at UH Manoa at the time of publishing this app. The field can be set to false to omit loading the extra data. The code to do this illustrates how to initialize a system when the initial data exceeds the size limitations for the settings file.
 
 ### Quality Assurance
-#### ES lint
+#### ESLint
 
 Rio connect includes a [.eslintrc](https://github.com/rio-connect/rio-connect/blob/master/app/.eslintrc.js) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
@@ -306,7 +315,7 @@ All the tests pass, but the first test is marked as "unstable". At the time of w
 
 The only impact of quarantine mode should be that the first test is marked as "unstable".
 
-## Milestones
+## Development History
 
 ### Milestone 1
 The Goal of Milestone 1 was to create mockup pages and a few skeletal react pages to build upon in the future.
@@ -323,6 +332,4 @@ The Goal of Milestone 3 is to add increased functionality and complexity to the 
 
 [M3 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/3)
 
-## Deployment
-[Link to deployed app](https://rio-connect.com/)
 
