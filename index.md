@@ -67,10 +67,6 @@ The system provides the following features:
 
 ## User Guide
 
-<p align="center">
- <img width="85%" class="img-fluid" src="doc/site-map.png">
-</p>
-
 ### Landing Page
 
 Landing page that provides a brief introduction to RIO Connect. Users can log in, sign up, or browse clubs.
