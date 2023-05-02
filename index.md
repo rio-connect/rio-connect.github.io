@@ -260,25 +260,28 @@ Then, invoke `meteor npm run testcafe-ci`.  You will not see any windows appear.
 
 
 ```
-sean@Laptop-von-Sean app % meteor npm run testcafe-ci
+user@Laptop-von-Sean app % meteor npm run testcafe-ci
 
-> meteor-application-template-react@ testcafe-ci /Users/sean/Documents/GitHub/rio-connect/app
+> meteor-application-template-react@ testcafe-ci /Users/user/Documents/GitHub/rio-connect/app
 > testcafe chrome:headless tests/*.testcafe.js -q --app "meteor npm run start"
 
  Running tests in:
  - Chrome 112.0.5615.137 / Ventura 13
 
  rio-connect localhost test with default db
- ✓ Test that landing page shows up (unstable)
- ✓ Test that signin and signout work
- ✓ Test that signin and signout work
- ✓ Test that signin and signout work
-10
- ✓ Test the Browse Clubs page
+ ✓ Test that landing page shows up
+ ✓ Test that signin and signout work for Emma Lee
+ ✓ Test that signin and signout work for John Smith
+ ✓ Test that signin and signout work for Admin
+ ✓ Test that BrowseClubsPage works for users
  ✓ Test that add and edit clubs work
+ ✓ Test that the UserPage displays correct information for emma@foo.com
+ ✓ Test that the UserPage displays correct information for john@foo.com
+ ✓ Test that the UserPage displays correct information for admin@foo.com
 
 
- 6 passed (6m 34s)
+ 9 passed (6m 38s)
+
 ```
 
 
@@ -291,14 +294,17 @@ The only impact of quarantine mode should be that the first test is marked as "u
 
 ### Milestone 1
 The Goal of Milestone 1 was to create mockup pages and a few skeletal react pages to build upon in the future.
+
 [M1 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/1)
 
 ### Milestone 2
 The Goal of Milestone 2 was to implement functioning pages that interact with the data models set in place.
+
 [M2 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/2)
 
 ### Milestone 3
 The Goal of Milestone 3 is to add increased functionality and complexity to the existing app to produce a polished final project.
+
 [M3 Project Board on GitHub](https://github.com/orgs/rio-connect/projects/3)
 
 ## Deployment
