@@ -269,7 +269,7 @@ user@Laptop-von-Sean app % meteor npm run testcafe-ci
  - Chrome 112.0.5615.137 / Ventura 13
 
  rio-connect localhost test with default db
- ✓ Test that landing page shows up
+ ✓ Test that landing page shows up (unstable)
  ✓ Test that signin and signout work for Emma Lee
  ✓ Test that signin and signout work for John Smith
  ✓ Test that signin and signout work for Admin
