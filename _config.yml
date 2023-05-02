@@ -3,6 +3,8 @@ description: An app designed to help UH Community find clubs and groups
 google_analytics:
 show_downloads: false
 theme: jekyll-theme-cayman
-
+github:
+  is_project_page: true
+  repository_url: https://github.com/rio-connect/rio-connect
 gems:
   - jekyll-mentions
