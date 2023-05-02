@@ -143,18 +143,19 @@ We are interested in your experience using Rio Connect! If you would like, pleas
 
 The following are some of the feedback we recieved from other UH students:
 
-When in my profile it shows that I am in clubs that I did not select, so getting it to show only the clubs that I had joined. The add club feature could be improved for easier user access.
+Andee: When in my profile it shows that I am in clubs that I did not select, so getting it to show only the clubs that I had joined. The add club feature could be improved for easier user access.
 
-Overall, I love the visual appearance of the website. I think that it has an easy-to-follow user navigation system as well. However, I would make sure to fix the "Add club" mechanism, as well as the mechanism to edit the clubs you are a part of, as it doesn't seem to be fully working. I think this is a really well made website, though, and could prove useful for any student wanting to join a new club.
+Eliya: Overall, I love the visual appearance of the website. I think that it has an easy-to-follow user navigation system as well. However, I would make sure to fix the "Add club" mechanism, as well as the mechanism to edit the clubs you are a part of, as it doesn't seem to be fully working. I think this is a really well made website, though, and could prove useful for any student wanting to join a new club.
 
-Everything looks and works well, a couple ideas of things that could be added is a when2meet or something similar to show meeting times, a separate section where owners can look at their clubs separate from clubs that they've joined as a member, and then somewhere on the website with contact info for admin or incase of error.
+Mercy: Everything looks and works well, a couple ideas of things that could be added is a when2meet or something similar to show meeting times, a separate section where owners can look at their clubs separate from clubs that they've joined as a member, and then somewhere on the website with contact info for admin or incase of error.
 
-Images take a while to load (not cause of my internet or computer), Dark theme
-Nothing, it is intuitive and looks great on mobile.
+Alex: Images take a while to load (not cause of my internet or computer), Dark theme
 
-The website seems to be efficiently designed for finding clubs. Perhaps maybe a way to search for other users and add them as a friend to see what clubs they're in to give it a social aspect?
+Sarah Haanen (Hui Ala Pono Club President): Nothing, it is intuitive and looks great on mobile.
 
-I think the website looks AMAZING! I truly didn't know we had that many clubs! My one minor suggestion is adding an option where it immediately allows users to go from the letter "A" category to the letter "M" category without having to scroll all the way down; like an "A / B / C / D..." type of interface to make it even easier and quicker to navigate. Overall though, I think the website is efficient and effective- good job! :)
+Timothy : The website seems to be efficiently designed for finding clubs. Perhaps maybe a way to search for other users and add them as a friend to see what clubs they're in to give it a social aspect?
+
+Hannah: I think the website looks AMAZING! I truly didn't know we had that many clubs! My one minor suggestion is adding an option where it immediately allows users to go from the letter "A" category to the letter "M" category without having to scroll all the way down; like an "A / B / C / D..." type of interface to make it even easier and quicker to navigate. Overall though, I think the website is efficient and effective- good job! :)
 
 ## Developer Guide
 
