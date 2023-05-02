@@ -223,7 +223,7 @@ meteor npm run testcafe
 
 You will see browser windows appear and disappear as the tests run.  If the tests finish successfully, you should see the following in your second console window:
 
-
+```
 user@Laptop-von-Sean app % meteor npm run testcafe
 
 > meteor-application-template-react@ testcafe /Users/user/Documents/GitHub/rio-connect/app
