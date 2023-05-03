@@ -151,7 +151,7 @@ The following are some of the feedback we recieved from other UH students:
 
 <strong>Alex</strong>: Images take a while to load (not cause of my internet or computer), Dark theme
 
-<strong>Sarah Haanen (Hui Ala Pono Club President)</strong>: Nothing, it is intuitive and looks great on mobile.
+<strong>Sarah Haanen (Hui Ola Pono Club President)</strong>: Nothing, it is intuitive and looks great on mobile.
 
 <strong>Timothy</strong>: The website seems to be efficiently designed for finding clubs. Perhaps maybe a way to search for other users and add them as a friend to see what clubs they're in to give it a social aspect?
 
