@@ -141,6 +141,8 @@ Allows new users to create an account with the site, to allow a customized club-
 
 We are interested in your experience using Rio Connect! If you would like, please take a couple of minutes to fill out the [Rio Connect Feedback Form](https://docs.google.com/forms/d/1X0cSERm66ZapfSLwUToNWUevdz_jKCKSPyyuHL5Cp2A/edit). It contains only five short questions and will help us understand how to improve the system.
 
+#### Feedback
+
 The following are some of the feedback we recieved from other UH students:
 
 <strong>Andee:</strong> When in my profile it shows that I am in clubs that I did not select, so getting it to show only the clubs that I had joined. The add club feature could be improved for easier user access.
@@ -157,7 +159,7 @@ The following are some of the feedback we recieved from other UH students:
 
 <strong>Hannah:</strong> I think the website looks AMAZING! I truly didn't know we had that many clubs! My one minor suggestion is adding an option where it immediately allows users to go from the letter "A" category to the letter "M" category without having to scroll all the way down; like an "A / B / C / D..." type of interface to make it even easier and quicker to navigate. Overall though, I think the website is efficient and effective- good job! :)
 
-#### Summary:
+#### Summary
 Overall, our website had a positive feedback from UH community members with an average rating of 8.75/10. All of the users agree that our website looks nice, and is easy to understand and navigate, and that the website would be a useful site when looking for a club. Some of the users noticed that our add club feature was not fully functional; however, this issue was fixed promptly when we noticed that our deployed site was not up to date with the latest version. Another user noticed that the user home page listed clubs that they did not join; this issue was also fixed in a recent update. We were also provided with suggestions for future improvements: user interface improvements such as separating a section that lists clubs in the user home page into a section that lists clubs that the user own and a section that lists clubs that the user is a member of; and functionality improvements such as adding a feature to schedule and show meeting times, a way to search for other users and add them as a friend to give the site a social aspect, making club images load faster in the browse clubs page, having a dark theme, adding contact info for admin somewhere on the website incase of an error, and having an alphabetical navigation to make it easier and quicker to find clubs.
 
 ## GitHub Organization
